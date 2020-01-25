@@ -1,5 +1,13 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "banner banner"
+    "hike-txt hike-img"
+    "laptop-img laptop-img"
+    "choices-txt choices-btns"
+    "girl-img girl-img"
+    "reviews-title reviews-txt"
+    "footer footer";
 }
