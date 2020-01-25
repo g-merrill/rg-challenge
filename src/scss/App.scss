@@ -4,10 +4,19 @@
   grid-template-columns: 50% 50%;
   grid-template-areas:
     "banner banner"
-    "hike-txt hike-img"
-    "laptop-img laptop-img"
+    "hikers-txt hikers-img"
+    "momandboy-img momandboy-img"
     "choices-txt choices-btns"
     "girl-img girl-img"
     "reviews-title reviews-txt"
     "footer footer";
+  .h60 {
+    height: 60vh;
+  }
+  .h70 {
+    height: 70vh;
+  }
+  .h100 {
+    height: 100vh;
+  }
 }
