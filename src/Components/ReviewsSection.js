@@ -3,10 +3,10 @@ import './scss/ReviewsSection.scss';
 
 const ReviewsSection = () => (
   <>
-    <div className="Reviews-title h60">
+    <div className="Reviews-title">
       ReviewsTitle
     </div>
-    <div className="Reviews-txt h60">
+    <div className="Reviews-txt">
       ReviewsTxt
     </div>
   </>

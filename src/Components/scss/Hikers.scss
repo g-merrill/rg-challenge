@@ -1,7 +1,18 @@
-.Hikers-txt {
+.Hikers-txt-section {
   grid-area: hikers-txt;
+  padding: 15% 10% 0 30%;
+  .Hikers-title {
+    font-size: calc(1vw + 8px);
+  }
+  .Hikers-txtcontent {
+    font-size: calc(1vw + 0.5px);
+  }
+  .Hikers-link {
+    font-size: calc(1vw + 4px);
+  }
 }
 .Hikers-img {
   grid-area: hikers-img;
+  width: 100%;
 }
 

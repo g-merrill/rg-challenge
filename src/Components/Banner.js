@@ -8,10 +8,10 @@ const Banner = () => (
       src="/images/logo-white.svg"
       alt="rooster grin"
     />
-    <div className="banner-content">
+    <div className="Banner-content">
       <h1 className='welcome-txt'>WELCOME TO</h1>
       <h2 className='rg-text'>Rooster Grin</h2>
-      <button className='banner-btn'>BUTTON BUTTON</button>
+      <button className='Banner-btn'>BUTTON BUTTON</button>
     </div>
     <img
       className='Banner-img'

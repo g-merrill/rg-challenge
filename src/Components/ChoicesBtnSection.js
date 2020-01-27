@@ -3,10 +3,10 @@ import './scss/ChoicesBtnSection.scss';
 
 const ChoicesBtnSection = () => (
   <>
-    <div className="Choices-txt h60">
+    <div className="Choices-txt">
       ChoicesTxt
     </div>
-    <div className="Choices-btns h60">
+    <div className="Choices-btns">
       ChoicesBtns
     </div>
   </>
