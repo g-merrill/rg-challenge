@@ -1,11 +1,12 @@
 .Hikers-txt-section {
   grid-area: hikers-txt;
-  padding: 15% 10% 0 30%;
+  padding: 10% 10% 0 25%;
   .Hikers-title {
-    font-size: calc(1vw + 8px);
+    font-size: calc(2vw + 8px);
   }
   .Hikers-txtcontent {
     font-size: calc(1vw + 0.5px);
+    padding: 5px 0;
   }
   .Hikers-link {
     font-size: calc(1vw + 4px);
