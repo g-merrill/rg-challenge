@@ -7,12 +7,12 @@ const Footer = () => (
     <div className="Footer-logo-ctnr">
       <img
         className='Footer-ig-svg'
-        src="/images/instagram.svg"
+        src="/rg-challenge/images/instagram.svg"
         alt="instagram"
       />
       <img
         className='Footer-fb-svg'
-        src="/images/facebook.svg"
+        src="/rg-challenge/images/facebook.svg"
         alt="facebook"
       />
     </div>

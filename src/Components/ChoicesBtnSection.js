@@ -8,14 +8,19 @@ const ChoicesBtnSection = () => (
       <p className="Choices-txtcontent">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, tincidunt quis enim blandit, sodales bibendum lectus. Nam egestas feugiat sapien sed fermentum.
       </p>
-      <a href="/" className="Choices-link purple-links-hdrs">> Lorem Ipsum</a>
+      <a
+        href="/rg-challenge"
+        className="Choices-link purple-links-hdrs"
+      >
+        > Lorem Ipsum
+      </a>
     </div>
     <div className="Choices-btns">
       <div className="Choices-btn-wrapper">
         <div className='Choices-svg-wrapper'>
           <img
             className='Choices-svg'
-            src="/images/home-expertise.svg"
+            src="/rg-challenge/images/home-expertise.svg"
             alt="expertise"
           />
         </div>
@@ -25,7 +30,7 @@ const ChoicesBtnSection = () => (
         <div className='Choices-svg-wrapper'>
           <img
             className='Choices-svg'
-            src="/images/home-hygiene.svg"
+            src="/rg-challenge/images/home-hygiene.svg"
             alt="hygiene"
           />
         </div>
@@ -35,7 +40,7 @@ const ChoicesBtnSection = () => (
         <div className='Choices-svg-wrapper'>
           <img
             className='Choices-svg'
-            src="/images/home-lab.svg"
+            src="/rg-challenge/images/home-lab.svg"
             alt="lab"
           />
         </div>
@@ -45,7 +50,7 @@ const ChoicesBtnSection = () => (
         <div className='Choices-svg-wrapper'>
           <img
             className='Choices-svg'
-            src="/images/home-retention.svg"
+            src="/rg-challenge/images/home-retention.svg"
             alt="retention"
           />
         </div>

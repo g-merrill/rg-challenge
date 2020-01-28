@@ -18,7 +18,7 @@ const Girl = () => (
         <span>RETURN TO TOP</span>
       </button>
     </div>
-    <img className='Girl-img' src="/images/banner-2.jpg" alt="girl"/>
+    <img className='Girl-img' src="/rg-challenge/images/banner-2.jpg" alt="girl"/>
   </div>
 );
 

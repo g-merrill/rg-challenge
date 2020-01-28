@@ -17,7 +17,7 @@ const MomAndBoy = () => (
     </div>
     <img
       className='MomAndBoy-img'
-      src="/images/banner-1.jpg"
+      src="/rg-challenge/images/banner-1.jpg"
       alt="mom and boy"
     />
   </div>

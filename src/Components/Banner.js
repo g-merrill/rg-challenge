@@ -5,7 +5,7 @@ const Banner = () => (
   <div id='Banner' className="Banner">
     <img
       className='Banner-rg-logo-white'
-      src="/images/logo-white.svg"
+      src="/rg-challenge/images/logo-white.svg"
       alt="rooster grin"
     />
     <div className="Banner-content">
@@ -23,7 +23,7 @@ const Banner = () => (
     </div>
     <img
       className='Banner-img'
-      src='/images/hero.jpg'
+      src='/rg-challenge/images/hero.jpg'
       alt="bridge"
     />
   </div>
