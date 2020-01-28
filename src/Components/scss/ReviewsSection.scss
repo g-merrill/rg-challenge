@@ -1,0 +1,21 @@
+.Reviews-title-section {
+  grid-area: reviews-title;
+  padding: 30% 10% 30% 30%;
+  .Reviews-title {
+    font-size: calc(2vw + 6px);
+    width: 90%;
+  }
+  .Reviews-stars {
+    display: flex;
+    padding: calc(1.5vw + 1px) 0;
+    .Reviews-star {
+      font-size: calc(1.5vw + 8px);
+      color: rgba(255, 114, 24, 1);
+      padding: 0 calc(0.1vw + 3px);
+    }
+  }
+}
+.Reviews-txt-section {
+  grid-area: reviews-txt;
+
+}
