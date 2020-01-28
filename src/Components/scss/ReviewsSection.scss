@@ -28,69 +28,44 @@
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
+  padding: 0 0 5% 0;
 }
 
-.Reviews-slide-left-btn {
+.Reviews-slide-btn {
   cursor: pointer;
   width: 4%;
   padding: 0 10px;
 }
-.Reviews-left-upper-tick {
-  background: rgba(97, 50, 118, 1);
-  width: 2px;
-  height: 10px;
-  border-radius: 2px;
-  transform: rotateZ(30deg) translateY(1px);
-}
-.Reviews-left-lower-tick {
-  background: rgba(97, 50, 118, 1);
-  width: 2px;
-  height: 10px;
-  border-radius: 2px;
-  transform: rotateZ(-30deg) translateY(-1px);
-}
-.Reviews-slide-right-btn {
-  cursor: pointer;
-  width: 4%;
-  padding: 0 10px;
-}
-.Reviews-right-upper-tick {
-  background: rgba(97, 50, 118, 1);
-  width: 2px;
-  height: 10px;
-  border-radius: 2px;
-  transform: rotateZ(-30deg) translateY(1px);
-}
-.Reviews-right-lower-tick {
-  background: rgba(97, 50, 118, 1);
-  width: 2px;
-  height: 10px;
-  border-radius: 2px;
-  transform: rotateZ(30deg) translateY(-1px);
+.Reviews-chevron {
+  color: rgba(97, 50, 118, 1);
 }
 
 .Reviews-review-name {
-  padding: 0 10px;
   text-align: center;
   font-size: calc(1vw + 4px);
 }
 .Reviews-review-txt {
-  padding: 20px 10px;
+  padding: 2vw calc(4vw + 10px);
   font-size: calc(1vw + 0.5px);
 }
 
 .Reviews-slider-dots {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
 }
-.Reviews-slider-dot {
-  background: rgba(255, 199, 24, 1);
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
-  margin: 0 3px;
-  opacity: 0.5;
-  &.active-dot {
-    opacity: 1;
+.carousel-indicators {
+  right: unset;
+  margin-left: unset;
+  li {
+    background: rgba(255, 199, 24, 1);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: none;
   }
 }
