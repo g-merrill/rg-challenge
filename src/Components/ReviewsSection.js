@@ -50,7 +50,7 @@ class ReviewsSection extends Component {
   render() {
     return (
       <>
-        <div className="Reviews-title-section">
+        <div id='Reviews' className="Reviews-title-section">
           <h2 className="Reviews-title">LOREM IPSUM DOLOR SIT AMET</h2>
           <div className="Reviews-stars">
             <span className="Reviews-star">&#9733;</span>

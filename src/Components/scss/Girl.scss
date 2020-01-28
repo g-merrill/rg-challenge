@@ -16,15 +16,53 @@
   padding: 5px 0 0;
   font-size: calc(1vw + 0.5px);
 }
-.Girl-btn {
-  font-size: calc(0.3vw + 7px);
-  cursor: pointer;
-  border: none;
-  margin: 2vw 0 0;
-  background: rgba(255, 114, 24, 1);
-  color: white;
-  padding: 10px;
-}
 .Girl-img {
   width: 100%;
+}
+
+.Girl-btn {
+  line-height: calc(2vw + 10px);
+  height: calc(2vw + 10px);
+  padding: 0 calc(2vw - 2px);
+  text-align: center;
+  cursor: pointer;
+  background: rgba(255, 114, 24, 1);
+  color: white;
+  transition: all 0.5s;
+  position: relative;
+  margin: 2vw 0 0;
+  border: none;
+  font-size: calc(0.3vw + 7px);
+}
+.Girl-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+.Girl-btn:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.Girl-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.Girl-btn:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
 }

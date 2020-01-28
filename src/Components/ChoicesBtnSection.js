@@ -3,7 +3,7 @@ import './scss/ChoicesBtnSection.scss';
 
 const ChoicesBtnSection = () => (
   <>
-    <div className="Choices-txt-section">
+    <div id='Choices' className="Choices-txt-section">
       <h2 className="Choices-title">LOREM IPSUM DOLOR SIT AMET</h2>
       <p className="Choices-txtcontent">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla nunc, tincidunt quis enim blandit, sodales bibendum lectus. Nam egestas feugiat sapien sed fermentum.

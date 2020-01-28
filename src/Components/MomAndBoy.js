@@ -5,7 +5,15 @@ const MomAndBoy = () => (
   <div className="MomAndBoy">
     <div className='MomAndBoy-txt-ctnr'>
       <h2 className="MomAndBoy-title purple-links-hdrs">LOREM IPSUM</h2>
-      <button className='MomAndBoy-btn'>BUTTON BUTTON</button>
+      <button
+        className='MomAndBoy-btn'
+        onClick={() => {
+          document.getElementById('Choices')
+            .scrollIntoView({behavior: "smooth"});
+        }}
+      >
+        <span>WHAT WE OFFER</span>
+      </button>
     </div>
     <img
       className='MomAndBoy-img'
