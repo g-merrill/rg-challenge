@@ -4,44 +4,44 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  .rg-logo-white {
-    position: absolute;
-    width: 16%;
-    left: 12%;
-    top: 5%;
+}
+.Banner-rg-logo-white {
+  position: absolute;
+  width: 16%;
+  left: 12%;
+  top: 5%;
+}
+.Banner-content {
+  position: absolute;
+  margin: 19% 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Banner-welcome-txt {
+  font-size: calc(3vw + 10px);
+  font-weight: 800;
+}
+@supports (-webkit-text-stroke: 0.5px white) {
+  .Banner-welcome-txt {
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: transparent;
   }
-  .Banner-content {
-    position: absolute;
-    margin: 19% 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .welcome-txt {
-      font-size: calc(3vw + 10px);
-      font-weight: 800;
-    }
-    @supports (-webkit-text-stroke: 0.5px white) {
-      .welcome-txt {
-        -webkit-text-stroke: 0.5px white;
-        -webkit-text-fill-color: transparent;
-      }
-    }
-    .rg-text {
-      font-size: calc(3vw + 10px);
-      font-weight: bold;
-      color: white;
-    }
-    .Banner-btn {
-      font-size: calc(0.3vw + 7px);
-      cursor: pointer;
-      border: none;
-      margin: 2vw 0 0;
-      background: rgba(172, 95, 208, 1);
-      color: white;
-      padding: 10px;
-    }
-  }
-  .Banner-img {
-    width: 100%;
-  }
+}
+.Banner-rg-text {
+  font-size: calc(3vw + 10px);
+  font-weight: bold;
+  color: white;
+}
+.Banner-btn {
+  font-size: calc(0.3vw + 7px);
+  cursor: pointer;
+  border: none;
+  margin: 2vw 0 0;
+  background: rgba(172, 95, 208, 1);
+  color: white;
+  padding: 10px;
+}
+.Banner-img {
+  width: 100%;
 }

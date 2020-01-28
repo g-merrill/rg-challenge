@@ -1,24 +1,24 @@
 .MomAndBoy {
   grid-area: momandboy-img;
   position: relative;
-  .MomAndBoy-txt-ctnr {
-    position: absolute;
-    top: 35%;
-    left: 20%;
-    .MomAndBoy-title {
-      font-size: calc(2vw + 8px);
-    }
-    .MomAndBoy-btn {
-      font-size: calc(0.3vw + 7px);
-      cursor: pointer;
-      border: none;
-      margin: 2vw 0 0;
-      background: rgba(255, 114, 24, 1);
-      color: white;
-      padding: 10px;
-    }
-  }
-  .MomAndBoy-img {
-    width: 100%;
-  }
+}
+.MomAndBoy-txt-ctnr {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+.MomAndBoy-title {
+  font-size: calc(2vw + 8px);
+}
+.MomAndBoy-btn {
+  font-size: calc(0.3vw + 7px);
+  cursor: pointer;
+  border: none;
+  margin: 2vw 0 0;
+  background: rgba(255, 114, 24, 1);
+  color: white;
+  padding: 10px;
+}
+.MomAndBoy-img {
+  width: 100%;
 }
