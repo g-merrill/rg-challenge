@@ -1,4 +1,25 @@
 .Footer {
   grid-area: footer;
   background: rgba(250, 250, 250, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .Footer-txt {
+    font-size: calc(1vw + 3px);
+    padding: 4vw 0 1vw;
+  }
+}
+.Footer-logo-ctnr {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 0 4vw;
+  .Footer-ig-svg {
+    width: calc(3vw + 20px);
+    padding: 0 1vw 0 0;
+  }
+  .Footer-fb-svg {
+    width: calc(3vw + 20px);
+    padding: 0 0 0 1vw;
+  }
 }
