@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rg-challenge/static/css/main.31154048.chunk.css",
-    "main.js": "/rg-challenge/static/js/main.4ee5476c.chunk.js",
-    "main.js.map": "/rg-challenge/static/js/main.4ee5476c.chunk.js.map",
+    "main.js": "/rg-challenge/static/js/main.5bb77026.chunk.js",
+    "main.js.map": "/rg-challenge/static/js/main.5bb77026.chunk.js.map",
     "runtime-main.js": "/rg-challenge/static/js/runtime-main.d2f52f81.js",
     "runtime-main.js.map": "/rg-challenge/static/js/runtime-main.d2f52f81.js.map",
     "static/js/2.3c9a4b84.chunk.js": "/rg-challenge/static/js/2.3c9a4b84.chunk.js",
     "static/js/2.3c9a4b84.chunk.js.map": "/rg-challenge/static/js/2.3c9a4b84.chunk.js.map",
     "index.html": "/rg-challenge/index.html",
-    "precache-manifest.1f38c88497574c4e497331dd70c22879.js": "/rg-challenge/precache-manifest.1f38c88497574c4e497331dd70c22879.js",
+    "precache-manifest.eeb37b767a868bc11909c55a1636a564.js": "/rg-challenge/precache-manifest.eeb37b767a868bc11909c55a1636a564.js",
     "service-worker.js": "/rg-challenge/service-worker.js",
     "static/css/main.31154048.chunk.css.map": "/rg-challenge/static/css/main.31154048.chunk.css.map",
     "static/js/2.3c9a4b84.chunk.js.LICENSE": "/rg-challenge/static/js/2.3c9a4b84.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d2f52f81.js",
     "static/js/2.3c9a4b84.chunk.js",
     "static/css/main.31154048.chunk.css",
-    "static/js/main.4ee5476c.chunk.js"
+    "static/js/main.5bb77026.chunk.js"
   ]
 }
